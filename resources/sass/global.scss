@@ -6,7 +6,8 @@ html,body{
     height: 100%;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    background-color: rgb(10, 10, 10) !important;
 }
 div{
     position: relative;
@@ -29,5 +30,7 @@ div.content-center{
     div.content{
         width: 80%;
         min-height: 500px;
+        padding: 20px;
+        background-color: white;
     }
 }

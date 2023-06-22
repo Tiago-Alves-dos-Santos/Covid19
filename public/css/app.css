@@ -12823,7 +12823,8 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  background-color: rgb(10, 10, 10) !important;
 }
 
 div {
@@ -12853,5 +12854,7 @@ div.content-center {
 div.content-center div.content {
   width: 80%;
   min-height: 500px;
+  padding: 20px;
+  background-color: white;
 }
 

@@ -11,6 +11,7 @@
 
     {{-- DataTable --}}
     <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
     {{-- FIM CSS --}}
 
     {{-- JS --}}
@@ -18,6 +19,7 @@
 
     {{-- DataTable --}}
     <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"></script>
     {{-- FIM JS --}}
 </head>
 <body>
@@ -25,12 +27,81 @@
 
     <div class="content-center">
         <div class="content">
-
+            <table id="example" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Estado</th>
+                        <th>UF</th>
+                        <th>Casos</th>
+                        <th>Mortes</th>
+                        <th>Suspeitos</th>
+                        <th>Recusados</th>
+                        <th>Data Atualização</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach ($covid as $value)
+                    @php
+                        $value = (object)$value;
+                        $data = new \DateTime($value->datetime);
+                        $dataFormatada = $data->format('d/m/Y H:i:s');
+                    @endphp
+                    <tr>
+                        <td>{{ $value->uid }}</td>
+                        <td>{{ $value->state }}</td>
+                        <td>{{ $value->uf }}</td>
+                        <td>{{ $value->cases }}</td>
+                        <td>{{ $value->deaths }}</td>
+                        <td>{{ $value->suspects }}</td>
+                        <td>{{ $value->refuses }}</td>
+                        <td>{{ $dataFormatada }}</td>
+                    </tr>
+                    @endforeach
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>ID</th>
+                        <th>Estado</th>
+                        <th>UF</th>
+                        <th>Casos</th>
+                        <th>Mortes</th>
+                        <th>Suspeitos</th>
+                        <th>Recusados</th>
+                        <th>Data Atualização</th>
+                    </tr>
+                </tfoot>
+            </table>
         </div>
     </div>
 
 <script>
-
+    $('#example').DataTable({
+        "language": {
+            decimal: "",
+            emptyTable: "Sem dados disponíveis",
+            info: "Mostrando de _START_ até _END_ de _TOTAL_ registos",
+            infoEmpty:"Mostrando de 0 até 0 de 0 registos",
+            infoFiltered: "(filtrado de _MAX_ registos no total)",
+            infoPostFix: "",
+            thousands: ",",
+            lengthMenu: "Mostrar _MENU_ registos",
+            loadingRecords: "A carregar dados...",
+            processing: "A processar...",
+            search:"Procurar:",
+            zeroRecords: "Não foram encontrados resultados",
+            paginate: {
+                first: "Primeiro",
+                last: "Último",
+                next: "Seguinte",
+                previous: "Anterior"
+            },
+            aria: {
+                sortAscending: ": clique para ordenar ascendente (ASC)",
+                sortDescending: ": clique para ordenar descendente (DESC)"
+            }
+        }
+    });
     function animateImage() {
         var movingImage = $('#movingImage');
         var windowWidth = $(window).width();
