@@ -56,9 +56,9 @@
 :heavy_check_mark:  Não adicionei versão
 
 
-## :movie_camera: Gif de exemplo chat privado
+## :movie_camera: Gif de demonstração
+
 <img src="public/img/covid19.gif" />
 
 ### Observação
- <!-- Para enviar mensagens use `SHIFT + ENTER` 
- Caso ocorra erro na instalação, instale o node(LTS) 16.14.2 e execute `npm install` && `npm run dev` -->
+ Link da API: https://covid19-brazil-api.vercel.app/
