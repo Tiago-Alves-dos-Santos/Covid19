@@ -1,29 +1,16 @@
-# VanRota
-  Sistema de rotas de topiques e entrega de pacotes
+# COVID - 19
+  Sistema consumindo api sobre o covid-19
 <!--
 ## Guards - Table - Model
-    web - user - developer
-    cliente
-    motorista
-    cobrador
-    dono
+
 ## Sessões
-    tipo: user
-    alert: titulo,data,tipo
-    toast: titulo,texto,tipo
-    guard:
-    tipo_login
+
 
 ## Cokkies
-    login_email
-    login_senha
+
 
 ## Z-index 
-    3 - div.sidebar-backDrop
-    4 - div.mysidbar
-    5 - div.page-load
-    20 - div#ancora-top
-    10.000 - div.page-load-ajax
+
 -->
 ## :hammer: Funcionalidades
 
@@ -38,7 +25,7 @@
 ~~~FrontEnd
 * HTML 5
 * CSS 3
-* BOOTSTRAP ^5.3.0-alpha1 (estava na versão mais atual)
+* BOOTSTRAP ^5.2.3
 * BLADE
 * LIVEWIRE
 * JQUERY - (Ajax)
