@@ -12,6 +12,7 @@
     {{-- DataTable --}}
     <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
     {{-- FIM CSS --}}
 
     {{-- JS --}}
@@ -19,7 +20,7 @@
 
     {{-- DataTable --}}
     <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"></script>
+    {{-- <script src="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"></script> --}}
     {{-- FIM JS --}}
 </head>
 <body>
@@ -33,7 +34,7 @@
                         <th>ID</th>
                         <th>Estado</th>
                         <th>UF</th>
-                        <th>Casos</th>
+                        <th>Casos Confirmados</th>
                         <th>Mortes</th>
                         <th>Suspeitos</th>
                         <th>Recusados</th>
@@ -72,6 +73,10 @@
                     </tr>
                 </tfoot>
             </table>
+
+            <div class="w-100 d-flex justify-content-end mt-3">
+                <a href="{{ $url_whatsaap }}" target="_blank" class="btn btn-success">Compartilhar Whatsapp</a>
+            </div>
         </div>
     </div>
 

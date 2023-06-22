@@ -12855,6 +12855,6 @@ div.content-center div.content {
   width: 80%;
   min-height: 500px;
   padding: 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.935);
 }
 
