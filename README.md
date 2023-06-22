@@ -57,6 +57,7 @@
 
 
 ## :movie_camera: Gif de demonstração
+
 <img src="public/img/covid19.gif" />
 
 ### Observação
