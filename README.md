@@ -33,9 +33,9 @@
 * LARAVEL 8
 ~~~
 
-~~~Banco
-* 
-~~~
+<!-- ~~~Banco
+* Ban
+~~~ -->
 ## Inicialização
 1. Certifique-se de ter instalado na sua máquina o php correto
 2. Faça o `git clone url_projeto -b main`
