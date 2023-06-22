@@ -56,7 +56,7 @@
 :heavy_check_mark:  Não adicionei versão
 
 
-## :movie_camera: Gif de exemplo chat privado
+## :movie_camera: Gif de demonstração
 <img src="public/img/covid19.gif" />
 
 ### Observação
