@@ -12841,3 +12841,17 @@ div {
   /* Ajuste o tamanho conforme necessário */
 }
 
+div.content-center {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content-center div.content {
+  width: 80%;
+  min-height: 500px;
+}
+
