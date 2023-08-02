@@ -23,7 +23,7 @@
 * CSS 3
 * BOOTSTRAP ^5.2.3
 * BLADE
-* JQUERY
+* JQUERY 3.7
 * NODE 16.14.2
 * NPM 8.5.0
 ~~~

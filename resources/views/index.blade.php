@@ -16,7 +16,7 @@
     {{-- FIM CSS --}}
 
     {{-- JS --}}
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 
     {{-- DataTable --}}
     <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
@@ -25,7 +25,9 @@
 </head>
 <body>
     <img src="{{ asset('img/favicon.png') }}" id="movingImage" alt="">
-
+    <div class="index-navbar w-100">
+        @include('includes.navbar')
+    </div>
     <div class="content-center">
         <div class="content">
             <table id="example" class="table table-striped" style="width:100%">
@@ -79,7 +81,7 @@
             </div>
         </div>
     </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     $('#example').DataTable({
         "language": {
