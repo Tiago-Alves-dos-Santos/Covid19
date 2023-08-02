@@ -11,11 +11,21 @@
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Idioma
+                <img src="{{ asset('img/Brazil_48px.png') }}" alt="" style="width: 24px"> Português
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Português</a></li>
-              <li><a class="dropdown-item" href="#">English</a></li>
+              <li>
+                <a class="dropdown-item" href="#">
+                    <img src="{{ asset('img/Brazil_48px.png') }}" alt="" style="width: 24px">
+                    Português
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                    <img src="{{ asset('img/USA_48px.png') }}" alt="" style="width: 24px">
+                    English
+                </a>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
