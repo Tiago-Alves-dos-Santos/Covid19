@@ -9,13 +9,14 @@ use Illuminate\Support\Facades\App;
 
 final class LanguageHelper
 {
-    private array $languages = ['en', 'pt-br']; // Idiomas suportados
+    private array $languages = ['en', 'pt_BR']; // Idiomas suportados
     public string $value = 'en';
     public function getLanguageClient(Request $request): string
     {
-        $clientLanguage = strtolower($request->server('HTTP_ACCEPT_LANGUAGE'));
+        $clientLanguage = $request->server('HTTP_ACCEPT_LANGUAGE');
         if ($clientLanguage) {
             $language = explode(',', $clientLanguage);
+            $language[0] = str_replace('-','_',$language[0]);
             if (in_array($language[0], $this->languages)) {
                 $this->value = $language[0];
                 return $this->value;

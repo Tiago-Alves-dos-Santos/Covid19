@@ -4,26 +4,28 @@ namespace App\Http\Controllers;
 
 use App\Classes\LanguageHelper;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Http;
 
 class PageController extends Controller
 {
-    public function index(Request $request){
+    public function index(Request $request)
+    {
 
         $language = new LanguageHelper();
-        if(session()->has('language')){//linguagem escolhida pelo cliente
+        if (session()->has('language')) { //linguagem escolhida pelo cliente
             $language->updateLanguage(session('language'));
-        }else{//linguagem padrão
+        } else { //linguagem padrão
             $language->updateLanguage($language->getLanguageClient($request));
         }
+        // dd(App::getLocale());
         $valueLanguage = $language->value;
-        // dd($valueLanguage);
         $resposta = Http::withOptions(['verify' => false])->get("https://covid19-brazil-api.now.sh/api/report/v1"); //desabilita verficação ssl
         $covid = $resposta->json()['data'];
         $texto_completo = "";
         $titulo = "";
         //montagem de texto, para compartilhamento no whatsapp
-        foreach($covid as $value){
+        foreach ($covid as $value) {
             $value = (object)$value;
             $data = new \DateTime($value->datetime);
             $dataFormatada = $data->format('d/m/Y H:i:s');
@@ -40,7 +42,7 @@ class PageController extends Controller
             ";
             $texto_completo .= urlencode($texto);
         }
-        $url_whatsaap = "https://web.whatsapp.com/send?text=".urlencode($titulo).$texto_completo;
+        $url_whatsaap = "https://web.whatsapp.com/send?text=" . urlencode($titulo) . $texto_completo;
         return view('index', compact(
             'covid',
             'url_whatsaap',
