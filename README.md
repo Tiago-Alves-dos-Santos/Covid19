@@ -1,7 +1,8 @@
 
 <a name="readme-top"></a>
 
-
+[![portfolio][portfolio-shield]][portfolio-url]
+[![linkedin][linkedin-shield]][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
@@ -14,8 +15,8 @@
   <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
+    Sistema consumindo API sobre o covid-19 no Brasil
+    <!-- <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -23,13 +24,13 @@
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- MENU -->
 <details>
   <summary>MENU</summary>
   <ol>
@@ -48,10 +49,10 @@
       </ul>
     </li>
     <li><a href="#modo-de-uso">Modo de uso</a></li>
-    <li><a href="#contribuidores">Contribuidores</a></li>
-    <li><a href="#licença">Licença</a></li>
+    <!-- <li><a href="#contribuidores">Contribuidores</a></li> -->
+    <!-- <li><a href="#licença">Licença</a></li> -->
     <li><a href="#contato">Contato</a></li>
-    <li><a href="#agradecimentos">Agradecimentos</a></li>
+    <!-- <li><a href="#agradecimentos">Agradecimentos</a></li> -->
   </ol>
 </details>
 
@@ -74,9 +75,19 @@ Obviamente, nenhum modelo atenderá a todos os projetos, pois suas necessidades 
 
 
 ### Tecnologias Utilizadas
+1. FRONT-END
+    * [![Html][html-web] 
+    * CSS 3
+    * * [![Bootstrap][Bootstrap.com]][Bootstrap-url] - versão: ^5.2.3
+    * BLADE
+    * [![JQuery][JQuery.com]][JQuery-url] - versão: 3.7
+    * NODE 16.14.2
+    * NPM 8.5.0
+2. BACK-END
+    * PHP 7.4.9
+    * [![Laravel][Laravel.com]][Laravel-url] - versão: 8
 
-Esta seção deve listar as principais estruturas/bibliotecas usadas para inicializar seu projeto. Deixe quaisquer complementos/plugins para a seção de agradecimentos. Aqui estão alguns exemplos.
-
+* [![Html][html-web]
 * [![Vue][Vue.js]][Vue-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
@@ -143,15 +154,15 @@ Use este espaço para mostrar exemplos úteis de como um projeto pode ser usado.
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 
-<!-- CONTRIBUTING -->
-## Contribuidores
+<!-- CONTRIBUIDORES -->
+<!-- ## Contribuidores
 Fotos e info de contribuidores aq
 
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p> -->
 
 
 
-<!-- LICENSE -->
+<!-- LICENÇA -->
 <!-- ## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
@@ -175,7 +186,7 @@ Formas de contato
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- AGRADECIMENTOS -->
 <!-- ## Agardecimentos
 
 Use este espaço para listar os recursos que você considera úteis e aos quais gostaria de dar crédito. Eu incluí alguns dos meus favoritos para começar!
@@ -193,18 +204,28 @@ Use este espaço para listar os recursos que você considera úteis e aos quais 
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
+<!-- MARKDOWN -->
+[html-web]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+
+
+
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
 
 [whatsapp-shield]: https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
 [whatsapp-url]: https://wa.link/h5vlzo
 [telegram-shield]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
-[telegram-url]: https://wa.link/h5vlzo
+[telegram-url]: https://t.me/TiagoAlves2001
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url]: https://wa.link/h5vlzo
+[portfolio-shield]: https://img.shields.io/badge/PORTFOLIO-%20CLIQUE%20AQUI%20-%20BLACK
+[portfolio-url]: https://wa.link/h5vlzo
