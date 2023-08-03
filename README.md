@@ -23,6 +23,7 @@
 
 
 <!--
+Readme template -> https://github.com/othneildrew/Best-README-Template
 ## Guards - Table - Model
 
 ## Sessões
@@ -41,7 +42,7 @@
 - [x] Multi linguagens suportadas
     - [x] English
     - [x] Português-BR
-    - [] Português
+    - [ ] Português
 
 ## :computer: Tecnologias Utilizadas
 1. FRONT-END
