@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="{{ asset('img/favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('img/favicon/favicon.ico') }}">
     <title>Covid-19</title>
     {{-- CSS --}}
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -110,37 +110,36 @@
         }
     });
     function animateImage() {
-        var movingImage = $('#movingImage');
-        var windowWidth = $(window).width();
-        var windowHeight = $(window).height();
-        var imageWidth = movingImage.width();
-        var imageHeight = movingImage.height();
+        let movingImage = $('#movingImage');
+        let windowWidth = $(window).width();
+        let windowHeight = $(window).height();
+        let imageWidth = movingImage.width();
+        let imageHeight = movingImage.height();
 
-        var x = 0;
-        var y = 0;
-        var dx = 5; // Velocidade horizontal
-        var dy = 5; // Velocidade vertical
+        let x = 0;
+        let y = 0;
+        let directionX = 5; // Velocidade horizontal
+        let directionY = 5; // Velocidade vertical
 
         function moveImage() {
-        x += dx;
-        y += dy;
+            x += directionX;
+            y += directionY;
 
-        if (x + imageWidth >= windowWidth || x <= 0) {
-            dx = -dx;
-        }
+            if (x + imageWidth >= windowWidth || x <= 0) {
+                directionX = -directionX;
+            }
 
-        if (y + imageHeight >= windowHeight || y <= 0) {
-            dy = -dy;
-        }
+            if (y + imageHeight >= windowHeight || y <= 0) {
+                directionY = -directionY;
+            }
 
-        movingImage.css({ 'left': x, 'top': y });
-
-        requestAnimationFrame(moveImage);
+            movingImage.css({ 'left': x, 'top': y });
+            //função nativa para realizar animações e atualizações -> melhor que usar setInterval kk
+            requestAnimationFrame(moveImage);
         }
 
         moveImage();
     }
-
     animateImage();
 </script>
 </body>

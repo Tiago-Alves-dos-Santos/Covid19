@@ -13,12 +13,12 @@
             @switch($valueLanguage)
                 @case('pt_BR')
                     <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="{{ asset('img/Brazil_48px.png') }}" alt="" style="width: 24px"> Português
+                        <img src="{{ asset('img/Brazil_24px.png') }}" alt=""> Português
                     </a>
                     @break
                 @case('en')
                     <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="{{ asset('img/USA_48px.png') }}" alt="" style="width: 24px"> English
+                        <img src="{{ asset('img/USA_24px.png') }}" alt=""> English
                     </a>
                     @break
 
@@ -28,12 +28,12 @@
             <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="{{ route('language.updateLanguage', ['language' => 'pt_BR']) }}">
-                    <img src="{{ asset('img/Brazil_48px.png') }}" alt="" style="width: 24px"> Português
+                    <img src="{{ asset('img/Brazil_24px.png') }}" alt=""> Português
                 </a>
               </li>
               <li>
                 <a class="dropdown-item" href="{{ route('language.updateLanguage', ['language' => 'en']) }}">
-                    <img src="{{ asset('img/USA_48px.png') }}" alt="" style="width: 24px"> English
+                    <img src="{{ asset('img/USA_24px.png') }}" alt=""> English
                 </a>
               </li>
             </ul>
