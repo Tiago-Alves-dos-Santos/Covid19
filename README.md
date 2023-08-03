@@ -1,26 +1,38 @@
+<!--
+Readme template -> https://github.com/othneildrew/Best-README-Template
+## Guards - Table - Model
+
+## Sessões
+
+
+## Cokkies
+
+
+## Z-index 
+
+-->
 
 <a name="readme-top"></a>
+
+<!-- PROJETO LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Tiago-Alves-dos-Santos/Covid19">
+    <img src="public/img/favicon/favicon_100px.png" alt="Logo" width="80" height="80">
+  </a>
 
 [![portfolio][portfolio-shield]][portfolio-url]
 [![linkedin][linkedin-shield]][linkedin-url]
 
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="public/img/favicon/favicon_100px.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">COVID-19</h3>
 
   <p align="center">
     Sistema consumindo API sobre o covid-19 no Brasil
     <!-- <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="URL_DOCS"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="URL_SERVIDOR">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
@@ -30,29 +42,24 @@
 
 
 
+
 <!-- MENU -->
 <details>
   <summary>MENU</summary>
   <ol>
     <li>
       <a href="#sobre">Sobre</a>
-      <ul>
-        <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
-      </ul>
     </li>
     <li><a href="#funcionalidades">Funcionalidades</a></li>
-    <li>
-      <a href="#começando">Começando</a>
-      <ul>
-        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
-        <li><a href="#Instalação">Instalação</a></li>
-      </ul>
-    </li>
+    <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+    <li><a href="#Instalação">Instalação</a></li>
     <li><a href="#modo-de-uso">Modo de uso</a></li>
-    <!-- <li><a href="#contribuidores">Contribuidores</a></li> -->
-    <!-- <li><a href="#licença">Licença</a></li> -->
+    <li><a href="#colaboradores">Colaboradores</a></li>
+    <li><a href="#versão-atual">Versão atual</a></li>
+    <li><a href="#licença">Licença</a></li>
     <li><a href="#contato">Contato</a></li>
     <!-- <li><a href="#agradecimentos">Agradecimentos</a></li> -->
+    <li><a href="#observação">Observação</a></li>
   </ol>
 </details>
 
@@ -60,87 +67,72 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre
-
-<img src="public/img/imagem_projeto.png" />
-
-Existem muitos modelos README excelentes disponíveis no GitHub; no entanto, não encontrei um que realmente atendesse às minhas necessidades, então criei este aprimorado. Quero criar um modelo LEIA-ME tão incrível que seja o último de que você precisará - acho que é isso. Aqui está o porquê:
-* Seu tempo deve ser focado em criar algo incrível. Um projeto que resolve um problema e ajuda os outros
-* Você não deve fazer as mesmas tarefas repetidamente, como criar um README do zero
-* Você deve implementar os princípios DRY para o resto de sua vida :smile:
-
-Obviamente, nenhum modelo atenderá a todos os projetos, pois suas necessidades podem ser diferentes. Então eu estarei adicionando mais no futuro próximo. Você também pode sugerir alterações bifurcando este repositório e criando uma solicitação pull ou abrindo um problema. Obrigado a todas as pessoas que contribuíram para expandir este modelo!
+<img src="public/img/covid19.gif" />
+--- **N/A** ---
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
+<!-- FUNCIONALIDADES -->
+## Funcionalidades
 
+- [x] Consulta de dados relacionados ao Covid-19 no Brasil
+- [x] Compartilhamento de informações pelo whatsapp web
+- [x] Multi linguagens suportadas
+    - [x] English
+    - [x] Português-BR
+    - [ ] Português
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 1. FRONT-END
-    * [![Html][html-web] 
+    * HTML 5
     * CSS 3
-    * * [![Bootstrap][Bootstrap.com]][Bootstrap-url] - versão: ^5.2.3
+    * BOOTSTRAP ^5.2.3
     * BLADE
-    * [![JQuery][JQuery.com]][JQuery-url] - versão: 3.7
+    * JQUERY 3.7
     * NODE 16.14.2
     * NPM 8.5.0
 2. BACK-END
     * PHP 7.4.9
-    * [![Laravel][Laravel.com]][Laravel-url] - versão: 8
-
-* [![Html][html-web]
-* [![Vue][Vue.js]][Vue-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+    * LARAVEL 8
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
-<!-- ROADMAP -->
-## Funcionalidades :hammer: 
-
-- [x] Add Changelog
-- [x] Add Voltar ao topo links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
-## Começando
+## Instalação
 
-Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente.
-Para colocar uma cópia local em funcionamento, siga estas etapas de exemplo simples.
+1. Certifique-se de ter instalado na sua máquina o php e node(npm) correto, se usa docker verficar a imagem
+2. Faça o 
+    ~~~git
+        git clone url_projeto -b main
+    ~~~
+3. Duplique o arquivo `.env.example` e retire o `.example`
+4. Configure as variaveis de conexao com o banco de dados
+5. Execute 
+    ~~~php
+        composer install 
+    ~~~
+6. Caso queira fazer mudanças com o sass execute 
+    ~~~js
+        npm install
+    ~~~ 
+    em seguida
+    ~~~js
+        npm run watch
+    ~~~
+7. Execute 
+   ~~~php
+        php artisan key:generate 
+   ~~~
+8. Execute 
+    ~~~
+        php artisan serve
+    ~~~
 
-### Pré-requisitos
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Instalação
-
-Este é um exemplo de como listar as coisas que você precisa para usar o software e como instalá-las.
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
@@ -148,35 +140,38 @@ Este é um exemplo de como listar as coisas que você precisa para usar o softwa
 
 <!-- USAGE EXAMPLES -->
 ## Modo de uso
-
-Use este espaço para mostrar exemplos úteis de como um projeto pode ser usado. Capturas de tela adicionais, exemplos de código e demonstrações funcionam bem neste espaço. Você também pode criar links para mais recursos. _Para mais exemplos, consulte a [Documentação](https://example.com)_
+--- **N/A** ---
+<!-- Use este espaço para mostrar exemplos úteis de como um projeto pode ser usado. Capturas de tela adicionais, exemplos de código e demonstrações funcionam bem neste espaço. Você também pode criar links para mais recursos. _Para mais exemplos, consulte a [Documentação](https://example.com)_
+como por exemplo gifs, links para video etc
+:movie_camera: 
+<img src="public/img/covid19.gif" /> -->
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 
-<!-- CONTRIBUIDORES -->
-<!-- ## Contribuidores
-Fotos e info de contribuidores aq
+<!-- COLABORADORES -->
+## Colaboradores
+ --- **N/A** ---
 
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p> -->
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
+
+## Versão atual
+:heavy_check_mark:  v1.1.0
 
 
 <!-- LICENÇA -->
-<!-- ## Licença
+## Licença
+--- **N/A** ---
+<!-- Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações. -->
 
-Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
-
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p> -->
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Contato
-
-Tiago Alves dos Santos de Oliveira
-
-Email:
+Tiago Alves dos Santos
 
 Formas de contato
 [![Whatsapp][whatsapp-shield]][whatsapp-url]
@@ -202,30 +197,15 @@ Use este espaço para listar os recursos que você considera úteis e aos quais 
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p> -->
 
-
+### Observação
+ Link da API: https://covid19-brazil-api.vercel.app/
 
 <!-- MARKDOWN -->
-[html-web]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-
-
-
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-
 [whatsapp-shield]: https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
 [whatsapp-url]: https://wa.link/h5vlzo
 [telegram-shield]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
 [telegram-url]: https://t.me/TiagoAlves2001
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: https://wa.link/h5vlzo
+[linkedin-url]: https://www.linkedin.com/in/tiago-alves-96699a189/
 [portfolio-shield]: https://img.shields.io/badge/PORTFOLIO-%20CLIQUE%20AQUI%20-%20BLACK
 [portfolio-url]: https://wa.link/h5vlzo
