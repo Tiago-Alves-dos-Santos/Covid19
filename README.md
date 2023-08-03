@@ -67,7 +67,7 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre
-<img src="public/img/covid19.gif" />
+<img src="public/img/covid-19.gif" />
 
 --- **N/A** ---
 
