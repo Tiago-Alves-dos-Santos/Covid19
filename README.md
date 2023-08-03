@@ -43,7 +43,7 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
     <li>
       <a href="#sobre-o-projeto">Sobre</a>
       <ul>
-        <li><a href="#:computer:tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+        <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
       </ul>
     </li>
     <li><a href="#funcionalidades">Funcionalidades</a></li>
@@ -81,7 +81,7 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :computer: Tecnologias Utilizadas
+## :computer: Tecnologias Utilizadas {#tecnologias-utilizadas}
 1. FRONT-END
     * HTML 5
     * CSS 3
@@ -94,7 +94,7 @@ Use the `BLANK_README.md` to get started.
     * PHP 7.4.9
     * LARAVEL 8
 
-## :hammer: Funcionalidades
+## :hammer: Funcionalidades {#funcionalidades}
 
 - [x] Consulta de dados relacionados ao Covid-19 no Brasil
 - [x] Compartilhamento de informações pelo whatsapp web
