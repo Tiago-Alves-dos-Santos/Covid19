@@ -21,9 +21,6 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
     <img src="public/img/favicon/favicon_100px.png" alt="Logo" width="80" height="80">
   </a>
 
-[![portfolio][portfolio-shield]][portfolio-url]
-[![linkedin][linkedin-shield]][linkedin-url]
-
   <h3 align="center">COVID-19</h3>
 
   <p align="center">
@@ -38,6 +35,9 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
+
+  [![portfolio][portfolio-shield]][portfolio-url]
+  [![linkedin][linkedin-shield]][linkedin-url]
 </div>
 
 
