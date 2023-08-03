@@ -85,7 +85,7 @@ Esta seção deve listar as principais estruturas/bibliotecas usadas para inicia
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- ROADMAP -->
-## Funcionalidades
+## Funcionalidades :hammer: 
 
 - [x] Add Changelog
 - [x] Add Voltar ao topo links
@@ -152,26 +152,31 @@ Fotos e info de contribuidores aq
 
 
 <!-- LICENSE -->
-## Licença
+<!-- ## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
 
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p> -->
 
 
 
 <!-- CONTACT -->
 ## Contato
 
-Seu nome - [@your_twitter](https://twitter.com/your_username) - 
-email@example.com Link do projeto: [https://github.com/your_username/repo_name](https://github.com/your_username /repo_name)
+Tiago Alves dos Santos de Oliveira
+
+Email:
+
+Formas de contato
+[![Whatsapp][whatsapp-shield]][whatsapp-url]
+[![Telegram][telegram-shield]][telegram-url]
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Agardecimentos
+<!-- ## Agardecimentos
 
 Use este espaço para listar os recursos que você considera úteis e aos quais gostaria de dar crédito. Eu incluí alguns dos meus favoritos para começar!
 
@@ -184,7 +189,7 @@ Use este espaço para listar os recursos que você considera úteis e aos quais 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p> -->
 
 
 
@@ -198,3 +203,8 @@ Use este espaço para listar os recursos que você considera úteis e aos quais 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+[whatsapp-shield]: https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
+[whatsapp-url]: https://wa.link/h5vlzo
+[telegram-shield]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+[telegram-url]: https://wa.link/h5vlzo
