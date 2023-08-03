@@ -68,6 +68,7 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
 <!-- ABOUT THE PROJECT -->
 ## Sobre
 <img src="public/img/covid19.gif" />
+
 --- **N/A** ---
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
@@ -97,9 +98,6 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -118,12 +116,8 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
     ~~~
 6. Caso queira fazer mudanças com o sass execute 
     ~~~js
-        npm install
+        npm install && npm run watch
     ~~~ 
-    em seguida
-    ~~~js
-        npm run watch
-    ~~~
 7. Execute 
    ~~~php
         php artisan key:generate 
