@@ -167,7 +167,9 @@ como por exemplo gifs, links para video etc
 ## Contato
 Tiago Alves dos Santos
 
-Formas de contato
+Formas de contato: 
+<br>
+
 [![Whatsapp][whatsapp-shield]][whatsapp-url]
 [![Telegram][telegram-shield]][telegram-url]
 
