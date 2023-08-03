@@ -129,5 +129,18 @@
   "click here to request another": "clique aqui para solicitar outro",
   "of": "de",
   "results": "resultados",
-  "to": "até"
+  "to": "até",
+  "Show records":"Mostrar _MENU_ registros",
+  "State":"Estado",
+  "State acronym":"UF",
+  "Confirmed cases": "Casos confirmados",
+  "Deaths":"Mortes",
+  "Suspects":"Suspeitos",
+  "Refused":"Recusados",
+  "Update date":"Data Atualização",
+  "Search":"Procurar",
+  "Previous":"Anterior",
+  "Next":"Seguinte",
+  "Share whatsapp":"Compartilhar whatsapp",
+  "Showing to of records":"Mostrando de _START_ até _END_ de _TOTAL_ registros"
 }

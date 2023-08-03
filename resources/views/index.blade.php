@@ -34,13 +34,13 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Estado</th>
-                        <th>UF</th>
-                        <th>Casos Confirmados</th>
-                        <th>Mortes</th>
-                        <th>Suspeitos</th>
-                        <th>Recusados</th>
-                        <th>Data Atualização</th>
+                        <th>{{ __('State') }}</th>
+                        <th>{{ __('State acronym') }}</th>
+                        <th>{{ __('Confirmed cases') }}</th>
+                        <th>{{ __('Deaths') }}</th>
+                        <th>{{ __('Suspects') }}</th>
+                        <th>{{ __('Refused') }}</th>
+                        <th>{{ __('Update date') }}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -65,19 +65,19 @@
                 <tfoot>
                     <tr>
                         <th>ID</th>
-                        <th>Estado</th>
-                        <th>UF</th>
-                        <th>Casos</th>
-                        <th>Mortes</th>
-                        <th>Suspeitos</th>
-                        <th>Recusados</th>
-                        <th>Data Atualização</th>
+                        <th>{{ __('State') }}</th>
+                        <th>{{ __('State acronym') }}</th>
+                        <th>{{ __('Confirmed cases') }}</th>
+                        <th>{{ __('Deaths') }}</th>
+                        <th>{{ __('Suspects') }}</th>
+                        <th>{{ __('Refused') }}</th>
+                        <th>{{ __('Update date') }}</th>
                     </tr>
                 </tfoot>
             </table>
 
             <div class="w-100 d-flex justify-content-end mt-3">
-                <a href="{{ $url_whatsaap }}" target="_blank" class="btn btn-success">Compartilhar Whatsapp</a>
+                <a href="{{ $url_whatsaap }}" target="_blank" class="btn btn-success">{{ __('Share whatsapp') }}</a>
             </div>
         </div>
     </div>
@@ -87,15 +87,15 @@
         "language": {
             decimal: "",
             emptyTable: "Sem dados disponíveis",
-            info: "Mostrando de _START_ até _END_ de _TOTAL_ registos",
+            info: "{{ __('Showing to of records') }}",
             infoEmpty:"Mostrando de 0 até 0 de 0 registos",
             infoFiltered: "(filtrado de _MAX_ registos no total)",
             infoPostFix: "",
             thousands: ",",
-            lengthMenu: "Mostrar _MENU_ registos",
+            lengthMenu: "{{ __('Show records') }}",
             loadingRecords: "A carregar dados...",
             processing: "A processar...",
-            search:"Procurar:",
+            search:"{{ __('Search') }}:",
             zeroRecords: "Não foram encontrados resultados",
             paginate: {
                 first: "Primeiro",
