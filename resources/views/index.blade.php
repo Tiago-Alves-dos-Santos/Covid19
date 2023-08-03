@@ -20,7 +20,6 @@
 
     {{-- DataTable --}}
     <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    {{-- <script src="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"></script> --}}
     {{-- FIM JS --}}
 </head>
 <body>
@@ -47,8 +46,8 @@
                     @foreach ($covid as $value)
                     @php
                         $value = (object)$value;
-                        $data = new \DateTime($value->datetime);
-                        $dataFormatada = $data->format('d/m/Y H:i:s');
+                        $date = new \DateTime($value->datetime);
+                        $date_formatted = $date->format('d/m/Y H:i:s');
                     @endphp
                     <tr>
                         <td>{{ $value->uid }}</td>
@@ -58,7 +57,7 @@
                         <td>{{ $value->deaths }}</td>
                         <td>{{ $value->suspects }}</td>
                         <td>{{ $value->refuses }}</td>
-                        <td>{{ $dataFormatada }}</td>
+                        <td>{{ $date_formatted }}</td>
                     </tr>
                     @endforeach
                 </tbody>

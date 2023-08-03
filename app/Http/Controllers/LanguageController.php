@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Classes\LanguageHelper;
-use Illuminate\Support\Facades\App;
 
 class LanguageController extends Controller
 {
+    //atualiza a session language e retorna ao index
     public function updateLanguage(Request $request)
     {
         session([

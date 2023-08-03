@@ -136,7 +136,7 @@
   "Confirmed cases": "Casos confirmados",
   "Deaths":"Mortes",
   "Suspects":"Suspeitos",
-  "Refused":"Recusados",
+  "Refused":"Recusado",
   "Update date":"Data Atualização",
   "Search":"Procurar",
   "Previous":"Anterior",
@@ -152,5 +152,7 @@
   "Last":"Último",
   "Filtered from records in total":"Filtrado de _MAX_ registos no total",
   "Click to sort ascending (ASC)":"Clique para ordenar ascendente (ASC)",
-  "Click to sort descending (DESC)":"Clique para ordenar descendente (DESC)"
+  "Click to sort descending (DESC)":"Clique para ordenar descendente (DESC)",
+  "COVID-19 cases in Brazil":"Casos de COVID-19 no Brasil",
+  "Last update":"Última atualização"
 }
