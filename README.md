@@ -1,27 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="public/img/favicon/favicon_100px.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">COVID - 19</h3>
-
-  <p align="center">
-      Sistema consumindo API sobre o covid-19 no Brasil
-    <!-- <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
-  </p>
-</div>
-
-
 <!--
 Readme template -> https://github.com/othneildrew/Best-README-Template
 ## Guards - Table - Model
@@ -35,6 +11,30 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
 ## Z-index 
 
 -->
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="public/img/favicon/favicon_100px.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">COVID - 19</h3>
+
+  <p align="center">
+      Sistema consumindo API sobre o covid-19 no Brasil
+    <!-- <br />
+    <a href=""><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
+  </p>
+</div>
+
 ## :hammer: Funcionalidades
 
 - [x] Consulta de dados relacionados ao Covid-19 no Brasil
@@ -65,9 +65,13 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
 2. Faça o ~~~git clone url_projeto -b main~~~
 3. Duplique o arquivo `.env.example` e retire o `.example`
 4. Configure as variaveis de conexao com o banco de dados
-5. Execute ~~~composer install~~~
+5. Execute 
+  ```php
+  composer install 
+  ```
 6. Caso queira fazer mudanças com o sass execute ~~~npm install~~~ em seguida ~~~npm run watch~~~
-7. Execute ~~~php
+7. Execute 
+   ~~~php
    php artisan key:generate 
    ~~~
 8. Execute ~~~php artisan serve~~~
