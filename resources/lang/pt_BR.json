@@ -142,5 +142,15 @@
   "Previous":"Anterior",
   "Next":"Seguinte",
   "Share whatsapp":"Compartilhar whatsapp",
-  "Showing to of records":"Mostrando de _START_ até _END_ de _TOTAL_ registros"
+  "Showing to of records":"Mostrando de _START_ até _END_ de _TOTAL_ registros",
+  "No data available":"Sem dados disponiveis",
+  "Showing from 0 to 0 of 0 records":"Mostrando de 0 até 0 de 0 registros",
+  "Loading data":"Carregando dados",
+  "Processing":"A processar",
+  "No results were found":"Não foram encontrados resultados",
+  "Firts":"Primeiro",
+  "Last":"Último",
+  "Filtered from records in total":"Filtrado de _MAX_ registos no total",
+  "Click to sort ascending (ASC)":"Clique para ordenar ascendente (ASC)",
+  "Click to sort descending (DESC)":"Clique para ordenar descendente (DESC)"
 }

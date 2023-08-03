@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg" style="background-color: white;">
+<nav class="navbar navbar-expand-sm" style="background-color: white;">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('img/favicon.png') }}" alt="covid-img" width="30" height="24" class="d-inline-block align-text-top">
@@ -8,7 +8,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             @switch($valueLanguage)
                 @case('pt_BR')

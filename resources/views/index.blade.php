@@ -86,26 +86,26 @@
     $('#example').DataTable({
         "language": {
             decimal: "",
-            emptyTable: "Sem dados disponíveis",
+            emptyTable: "{{ __('No data available') }}",
             info: "{{ __('Showing to of records') }}",
-            infoEmpty:"Mostrando de 0 até 0 de 0 registos",
-            infoFiltered: "(filtrado de _MAX_ registos no total)",
+            infoEmpty:"{{ __('Showing from 0 to 0 of 0 records') }}",
+            infoFiltered: "{{ __('Filtered from records in total') }}",
             infoPostFix: "",
             thousands: ",",
             lengthMenu: "{{ __('Show records') }}",
-            loadingRecords: "A carregar dados...",
-            processing: "A processar...",
+            loadingRecords: "{{ __('Loading data') }}"+'...',
+            processing: "{{ __('Processing') }}"+'...',
             search:"{{ __('Search') }}:",
-            zeroRecords: "Não foram encontrados resultados",
+            zeroRecords: "{{ __('No results were found') }}",
             paginate: {
-                first: "Primeiro",
-                last: "Último",
-                next: "Seguinte",
-                previous: "Anterior"
+                first: "{{ __('First') }}",
+                last: "{{ __('Last') }}",
+                next: "{{ __('Next') }}",
+                previous: "{{ __('Previous') }}"
             },
             aria: {
-                sortAscending: ": clique para ordenar ascendente (ASC)",
-                sortDescending: ": clique para ordenar descendente (DESC)"
+                sortAscending: ": {{ __('Click to sort ascending (ASC)') }}",
+                sortDescending: ": {{ __('Click to sort descending (DESC)') }}"
             }
         }
     });
