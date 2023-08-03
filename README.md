@@ -43,7 +43,7 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
     <li>
       <a href="#sobre-o-projeto">Sobre</a>
       <ul>
-        <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+        <li><a href="#:computer:tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
       </ul>
     </li>
     <li><a href="#funcionalidades">Funcionalidades</a></li>
