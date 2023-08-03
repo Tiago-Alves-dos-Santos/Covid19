@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-sm" style="background-color: white;">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('img/favicon.png') }}" alt="covid-img" width="30" height="24" class="d-inline-block align-text-top">
+            <img src="{{ asset('img/favicon/favicon_30px.png') }}" alt="covid-img" width="30" height="24" class="d-inline-block align-text-top">
             COVID-19-API
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

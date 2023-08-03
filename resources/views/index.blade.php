@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/favicon/favicon.ico') }}" type="image/x-icon">
     <title>Covid-19</title>
     {{-- CSS --}}
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -23,7 +23,7 @@
     {{-- FIM JS --}}
 </head>
 <body>
-    <img src="{{ asset('img/favicon.png') }}" id="movingImage" alt="">
+    <img src="{{ asset('img/favicon/favicon_100px.png') }}" id="movingImage" alt="">
     <div class="index-navbar w-100">
         @include('includes.navbar')
     </div>
@@ -82,6 +82,7 @@
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <script>
+    //deixar tradução assim, pois assim fica apto a suportar 'N' idiomas
     $('#example').DataTable({
         "language": {
             decimal: "",
