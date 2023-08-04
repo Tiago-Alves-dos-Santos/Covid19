@@ -52,7 +52,7 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
     </li>
     <li><a href="#funcionalidades">Funcionalidades</a></li>
     <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
-    <li><a href="#Instalação">Instalação</a></li>
+    <li><a href="#instalação">Instalação</a></li>
     <li><a href="#modo-de-uso">Modo de uso</a></li>
     <li><a href="#colaboradores">Colaboradores</a></li>
     <li><a href="#versão-atual">Versão atual</a></li>
@@ -83,6 +83,8 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
     - [x] Português-BR
     - [ ] Português
 
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+
 ## Tecnologias Utilizadas
 1. FRONT-END
     * HTML 5
@@ -95,8 +97,6 @@ Readme template -> https://github.com/othneildrew/Best-README-Template
 2. BACK-END
     * PHP 7.4.9
     * LARAVEL 8
-
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
